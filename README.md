@@ -14,3 +14,5 @@ $ ifconfig
 
 #press login
 #you will get two screens where you can drag and drop contents to copy to/from the raspberry.  
+# convert h264 video into mp4
+ffmpeg -i <videoName.h264> -vcodec copy <videoName.mp4>
